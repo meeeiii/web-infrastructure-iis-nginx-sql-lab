@@ -1,0 +1,25 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# Local secrets — never commit
+.env
+.env.local
+credentials
+*.pfx
+*.key
+
+# SQL Server local backups
+*.bak
+*.mdf
+*.ldf
+
+# Linux build artefacts if anyone runs setup.sh locally
+*.rpm
